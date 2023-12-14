@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background-color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    height: 100px;
+}
+
+header figure {
+    margin-right: 20px;
+}
+
+header img {
+    width: 80px;
+}
+
+header .logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+header .logo div h1 {
+    font-family: Kalnia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+header .logo div p {
+    font-family: Kalnia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.main {
+    max-width: 1100px;
+    margin: auto;
+    grid-gap: 2rem;
+    display: grid;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 13rem) minmax(0, 2.5fr) minmax(0, 13rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-width: 1168px;
+}
+
+.main h1,
+.main h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.main h1 {
+    font-size: 32px;
+}
+
+.footer {
+    padding-left: 140px;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer div img {
+    max-width: 40px;
+    padding-right: 10px;
+}
+
+.footer h2 {
+    font-family: Kalnia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.anchors ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.anchors ul li {
+    margin: 10px 0;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.main figure {
+    border: .5px solid #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+}
+
+.main figure img {
+    max-height: 400px;
+}
+
+.main figure div {
+    border-top: .5px solid #cdcdcd;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+code,
+pre {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    background: #e7e9ec;
+    border: .5px solid #c4c7ca;
+    color: crimson;
+    font-size: smaller;
+    padding: 0 3px;
+}
+
+.table {
+    border: .5px solid #c4c7ca;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #e7e9ec;
+    border: .5px solid #c4c7ca;
+    padding: 5px;
+}
+
+.table td {
+    border: .5px solid #c4c7ca;
+    padding: 5px;
+}
